@@ -22,17 +22,18 @@ function App() {
   //   useEffect(()=>{
   //     window.alert("I am clicked.....")
   // });
-
+ //Hi
   return (
     <>
-      {/* <div className="main">
+    
+      <div className="main">
     <FPHeader />
     <FPCounter />
     </div> 
     <div>
       <button onClick={()=>{updatedtoggle(!toggle)}}>Toggle</button>
       { toggle && <Test/> }
-    </div> */}
+    </div>
 
       <Routes >
         <Route path="/" element={<FPHeader />} />
